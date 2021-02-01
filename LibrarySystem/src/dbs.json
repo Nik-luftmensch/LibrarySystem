@@ -1,0 +1,184 @@
+{
+  "books": [
+    {
+      "btitle": "Eloquent JavaScript, Second Edition",
+      "bcatag": "Programming",
+      "bstatus": "Old",
+      "bcopies": 0,
+      "bisbn": "9781593275846",
+      "byear": 2014,
+      "bauthor": "Marijn Haverbeke",
+      "bpub": "No Starch Press",
+      "pubname": "A Modern Introduction to Programming",
+      "bdate": "2021-08-12",
+      "id": 3
+    },
+    {
+      "btitle": "Things Fall Apart",
+      "bcatag": "Drama",
+      "bstatus": "New",
+      "bcopies": 9,
+      "bisbn": "9781449365035",
+      "byear": 2003,
+      "bauthor": "Chinua Achebe",
+      "bpub": "NKR Publications",
+      "pubname": "Hans Christian Andersen",
+      "bdate": "2020-03-02",
+      "id": 4
+    },
+    {
+      "btitle": "The Divine",
+      "bcatag": "Drama",
+      "bstatus": "New",
+      "bcopies": 1,
+      "bisbn": "9781593277574",
+      "byear": 2009,
+      "bauthor": "Nicholas C. Zakas",
+      "bpub": "O'Reilly Media",
+      "pubname": "No Starch Press",
+      "bdate": "2020-03-12",
+      "id": 5
+    },
+    {
+      "btitle": "One Thousand and One Nights",
+      "bcatag": "Romance",
+      "bstatus": "Damaged",
+      "bcopies": 16,
+      "bisbn": "9781449337711",
+      "byear": 1997,
+      "bauthor": "Downey",
+      "bpub": "Zeus",
+      "pubname": "Zeff",
+      "bdate": "2020-03-28",
+      "id": 6
+    },
+    {
+      "btitle": "Ficciones",
+      "bcatag": "Romance",
+      "bstatus": "Old",
+      "bcopies": 36,
+      "bisbn": "9781491904265",
+      "byear": 2016,
+      "bauthor": "Kyle Simpson",
+      "bpub": "Wuthering Publications",
+      "pubname": "Wuthering",
+      "bdate": "2020-03-12",
+      "id": 7
+    },
+    {
+      "btitle": "Don Quijote De La Mancha",
+      "bcatag": "Drama",
+      "bstatus": "New",
+      "bcopies": 6,
+      "bisbn": "9781491904784",
+      "byear": 2019,
+      "bauthor": "Miguel de Cervantes",
+      "bpub": "Anton Publication",
+      "pubname": "Anton",
+      "bdate": "2020-04-16",
+      "id": 8
+    },
+    {
+      "btitle": "Robo6",
+      "bcatag": "Satire",
+      "bstatus": "New",
+      "bcopies": 13,
+      "bisbn": "9781491904364",
+      "byear": 2020,
+      "bauthor": "Kylie",
+      "bpub": "Anton Publication",
+      "pubname": "Anton",
+      "bdate": "2020-04-08",
+      "id": 9
+    },
+    {
+      "btitle": "The Stranger",
+      "bcatag": "Drama",
+      "bstatus": "New",
+      "bcopies": 41,
+      "bisbn": "84181491904364",
+      "byear": 2016,
+      "bauthor": "Paul Celan",
+      "bpub": "Anton Publication",
+      "pubname": "Anton",
+      "bdate": "2020-04-14",
+      "id": 10
+    }
+  ],
+  "members": [
+    {
+      "uname": "Elon",
+      "uadmid": 23655,
+      "umail": "elon@e",
+      "udep": "CSE",
+      "upassword": "123@123",
+      "ustatus": 0,
+      "urecstatus": 0,
+      "urecj": "[]",
+      "ureqj": "[]",
+      "id": 3
+    },
+    {
+      "uname": "Mark",
+      "uadmid": 23652,
+      "umail": "mark@m",
+      "udep": "ME",
+      "upassword": "123@123",
+      "ustatus": 0,
+      "urecstatus": 1,
+      "urecj": "[{\"btitle\":\"The Divine\",\"bcatag\":\"Drama\",\"bstatus\":\"New\",\"bcopies\":2,\"bisbn\":\"9781593277574\",\"byear\":2009,\"bauthor\":\"Nicholas C. Zakas\",\"bpub\":\"O'Reilly Media\",\"pubname\":\"No Starch Press\",\"bdate\":\"2020-03-12\",\"id\":5}]",
+      "ureqj": "[]",
+      "id": 4
+    },
+    {
+      "uname": "Tony",
+      "uadmid": 232123,
+      "umail": "toby@t",
+      "udep": "ECE",
+      "upassword": "123@123",
+      "ustatus": 1,
+      "urecstatus": 1,
+      "urecj": "[{\"btitle\":\"Don Quijote De La Mancha\",\"bcatag\":\"Drama\",\"bstatus\":\"New\",\"bcopies\":7,\"bisbn\":\"9781491904784\",\"byear\":2019,\"bauthor\":\"Miguel de Cervantes\",\"bpub\":\"Anton Publication\",\"pubname\":\"Anton\",\"bdate\":\"2020-04-16\",\"id\":8}]",
+      "ureqj": "[{\"btitle\":\"Things Fall Apart\",\"bcatag\":\"Drama\",\"bstatus\":\"New\",\"bcopies\":12,\"bisbn\":\"9781449365035\",\"byear\":2003,\"bauthor\":\"Chinua Achebe\",\"bpub\":\"NKR Publications\",\"pubname\":\"Hans Christian Andersen\",\"bdate\":\"2020-03-02\",\"id\":4}]",
+      "id": 5
+    },
+    {
+      "uname": "Jarvis",
+      "uadmid": 23654,
+      "umail": "jarvis@j",
+      "udep": "CSE",
+      "upassword": "123@123",
+      "ustatus": 1,
+      "urecstatus": 1,
+      "urecj": "[{\"btitle\":\"One Thousand and One Nights\",\"bcatag\":\"Romance\",\"bstatus\":\"Damaged\",\"bcopies\":17,\"bisbn\":\"9781449337711\",\"byear\":1997,\"bauthor\":\"Downey\",\"bpub\":\"Zeus\",\"pubname\":\"Zeff\",\"bdate\":\"2020-03-28\",\"id\":6}]",
+      "ureqj": "[{\"btitle\":\"Things Fall Apart\",\"bcatag\":\"Drama\",\"bstatus\":\"New\",\"bcopies\":11,\"bisbn\":\"9781449365035\",\"byear\":2003,\"bauthor\":\"Chinua Achebe\",\"bpub\":\"NKR Publications\",\"pubname\":\"Hans Christian Andersen\",\"bdate\":\"2020-03-02\",\"id\":4},{\"btitle\":\"Eloquent JavaScript, Second Edition\",\"bcatag\":\"Programming\",\"bstatus\":\"Old\",\"bcopies\":3,\"bisbn\":\"9781593275846\",\"byear\":2014,\"bauthor\":\"Marijn Haverbeke\",\"bpub\":\"No Starch Press\",\"pubname\":\"A Modern Introduction to Programming\",\"bdate\":\"2021-08-12\",\"id\":3}]",
+      "id": 6
+    },
+    {
+      "uname": "Nikhil",
+      "uadmid": 20366,
+      "umail": "nikhil@n",
+      "udep": "IT",
+      "upassword": "123@123",
+      "ustatus": 1,
+      "urecstatus": 0,
+      "urecj": "[]",
+      "ureqj": "[{\"btitle\":\"Eloquent JavaScript, Second Edition\",\"bcatag\":\"Programming\",\"bstatus\":\"Old\",\"bcopies\":2,\"bisbn\":\"9781593275846\",\"byear\":2014,\"bauthor\":\"Marijn Haverbeke\",\"bpub\":\"No Starch Press\",\"pubname\":\"A Modern Introduction to Programming\",\"bdate\":\"2021-08-12\",\"id\":3},{\"btitle\":\"Things Fall Apart\",\"bcatag\":\"Drama\",\"bstatus\":\"New\",\"bcopies\":10,\"bisbn\":\"9781449365035\",\"byear\":2003,\"bauthor\":\"Chinua Achebe\",\"bpub\":\"NKR Publications\",\"pubname\":\"Hans Christian Andersen\",\"bdate\":\"2020-03-02\",\"id\":4},{\"btitle\":\"Eloquent JavaScript, Second Edition\",\"bcatag\":\"Programming\",\"bstatus\":\"Old\",\"bcopies\":1,\"bisbn\":\"9781593275846\",\"byear\":2014,\"bauthor\":\"Marijn Haverbeke\",\"bpub\":\"No Starch Press\",\"pubname\":\"A Modern Introduction to Programming\",\"bdate\":\"2021-08-12\",\"id\":3}]",
+      "id": 7
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "amail": "Nikhil.singh@gmail.com",
+      "apassword": "AdminPassword123",
+      "aname": "Nikhil Singh"
+    },
+    {
+      "id": 2,
+      "amail": "Ismet.Baruah@yahoo.com",
+      "apassword": "AdminPassword123",
+      "aname": "Ismet Baruah"
+    }
+  ]
+}
