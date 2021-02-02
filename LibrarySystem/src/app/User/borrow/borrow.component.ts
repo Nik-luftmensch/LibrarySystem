@@ -66,34 +66,29 @@ export class BorrowComponent implements OnInit {
 
 
   addtoReq(book: IBook) {
-
     if (book.bcopies > 0) {
-
       if (this.requestedBooks == null) {
         this.requestedBooks = this.requestedBooks || [];
         this.requestedBooks.push(book);
         this.reqSave();
-
         book.bcopies -= 1;
         this.bookSer.updateBook(book).subscribe();
-
-
-
-
       }
       else {
-        if ((this.requestedBooks.length + this.recievedBooks.length) < 2 || (this.requestedBooks.length + this.recievedBooks.length) == null) {
+        if(this.requestedBooks.length> 0 && this.requestedBooks[0].btitle == book.btitle){
+          alert("You can not take two copies of the same book...")
+        }
+        else{
+        if ((this.requestedBooks.length + this.recievedBooks.length) < 2 || (this.requestedBooks.length + this.recievedBooks.length) == null)  {
           this.requestedBooks.push(book);
           this.reqSave();
           book.bcopies -= 1;
           this.bookSer.updateBook(book).subscribe();
-
         } else {
           alert("You can not take more than 2 books...")
         }
       }
-
-
+    }
     }
     else {
       if (book.bcopies == 0) {
@@ -120,8 +115,6 @@ export class BorrowComponent implements OnInit {
     tempcp += 1;
     borrow.bcopies = tempcp;
     this.bookSer.updateBook(borrow).subscribe();
-
-
   }
   delsave() {
     this.user.ustatus = 1;
