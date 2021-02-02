@@ -33,8 +33,8 @@ To login as Admin(Librarian) -
 - password: AdminPassword123
 
 To login as User(Student) -
-- email: jarvis@j
-- password: 123@123
+- email: jarvis@j.com
+- password: UserPassword123
 
 There is 1 more Admin and 4 More users if you want to login as that please find the credentials in the server.json file
 

@@ -82,14 +82,14 @@ export class BorrowComponent implements OnInit {
 
       }
       else {
-        if ((this.requestedBooks.length + this.recievedBooks.length) < 3 || (this.requestedBooks.length + this.recievedBooks.length) == null) {
+        if ((this.requestedBooks.length + this.recievedBooks.length) < 2 || (this.requestedBooks.length + this.recievedBooks.length) == null) {
           this.requestedBooks.push(book);
           this.reqSave();
           book.bcopies -= 1;
           this.bookSer.updateBook(book).subscribe();
 
         } else {
-          alert("You can not take more than 3 books...")
+          alert("You can not take more than 2 books...")
         }
       }
 
@@ -100,7 +100,7 @@ export class BorrowComponent implements OnInit {
         alert("Book is not available now..")
       }
       else {
-        alert("You cant take more than 3 books")
+        alert("You cant take more than 2 books")
       }
     }
   }
